@@ -1,0 +1,111 @@
+.wrapper{
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+.kont1{
+    display: flex;
+    width: 100%;    
+    justify-content: space-around;
+    background-color: rgb(220, 220, 220);     
+}
+
+.kont1 div{
+    display:flex;
+    width:40%;
+    height:50px;
+    background-color: rgb(95, 158, 160);
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.kont2{
+    display: flex;    
+    width: 100%;
+    height: 40px;    
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);  
+    align-items: center;      
+}
+
+.kont2 div{  
+    display: flex; 
+    height:22px;
+    width:65px;
+    background-color: rgb(95, 158, 160);
+    justify-content: center;
+    align-items: center;    
+}
+
+.blok{
+    display: flex;    
+    width: 100%;
+    background-color: rgb(220, 220, 220);  
+}
+
+.kont3{    
+    display: flex;    
+    flex-direction: column;     
+    width: 20%;
+    font-weight: bold;
+}
+
+.kont3 div{    
+    height:20px;
+    background-color: rgb(95, 158, 160);
+    margin-top: 20px;  
+    width: 100%; 
+      
+}
+
+.kont4{    
+    display: flex;
+    flex-wrap: wrap;
+    width:80%;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.kont4 div{
+    margin-top: 20px;
+    margin-bottom: 20px;     
+    height: 200px;
+    width:166px;
+}
+
+.niz{
+    display: flex;
+    width:100%;
+    height:50px;
+    background-color: rgb(95, 158, 160);
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+@media (max-width: 426px){
+    .kont2{
+        flex-wrap: wrap; 
+        width:90%;
+        height:80px;
+    }
+    .kont2 div{
+        margin-left:9%;
+    }
+}
+
+@media (min-width: 1400px){
+    .wrapper{
+        max-width: 1000px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .kont4{
+        width: 75%;
+    }
+    .kont4 div{
+        margin-left:5%;
+    }
+}
